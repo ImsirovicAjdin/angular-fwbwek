@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `
     <div class="container mt-5">
-      <div>Working with forms part 3</div>
+      <div>Working with forms part 4</div>
       <app-user-settings-form></app-user-settings-form>
     </div>
   `
