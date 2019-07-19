@@ -71,4 +71,6 @@ The response is very simple. We have response.status, we can return any status c
 var parsedBody = JSON.parse(request.body);
 parsedBody.id = 1234;
 response.body = parsedBody;
+
+Commit message: Posting a body
 */
