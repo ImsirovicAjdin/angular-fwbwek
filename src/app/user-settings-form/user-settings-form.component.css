@@ -1,0 +1,18 @@
+/*
+.ng-invalid {
+    border: 1px solid red;
+}
+*/
+
+/*
+.ng-invalid:not(form) {
+    border: 1px solid red;
+}
+*/
+
+.ng-invalid:not(form).ng-touched {
+    border: 1px solid red;
+}
+.text-small {
+  font-size: 14px;
+}
