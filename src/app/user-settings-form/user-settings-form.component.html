@@ -64,7 +64,7 @@
 
 
       </div>
-
+        <div [hidden]="!postError" class="alert alert-danger">{{ postErrorMessage }}</div>
         <button class="btn btn-secondary">Ok</button>
       </form>
     </div>
